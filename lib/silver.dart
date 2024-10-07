@@ -10,15 +10,16 @@ class Mysilver extends StatefulWidget {
 class _MysilverState extends State<Mysilver> {
   @override
   Widget build(BuildContext context) {
+    final size=MediaQuery.of(context).size;
     return Scaffold(
     body:Column(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        SizedBox(height: 20),
+        SizedBox(height: size.height*0.02),
         Center(child: Text('Silvers',style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 45),)),
         Container(
-          height:70,
-          width: 360,
+          height:size.height*0.07,
+          width: size.width*0.8,
           decoration: BoxDecoration(color: Colors.green,borderRadius: BorderRadius.circular(15)),
           child:Center(child:Text('Green',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize:30 ),) ,)
             
