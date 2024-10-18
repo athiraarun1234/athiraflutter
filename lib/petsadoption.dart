@@ -70,7 +70,8 @@ class _MypetsState extends State<Mypets> {
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
                         width: 100,height: 50,
-                        decoration: BoxDecoration(image: DecorationImage(image: AssetImage(images[index]),fit: BoxFit.cover
+                        decoration: BoxDecoration(image: DecorationImage(image: AssetImage(images[index]),
+                        fit: BoxFit.cover
                                       
                       ),
                       borderRadius: BorderRadius.circular(15)
@@ -96,7 +97,8 @@ class _MypetsState extends State<Mypets> {
                      Container(
                       height: 150,
                       width: 200,
-                      decoration: BoxDecoration(image: DecorationImage(image: AssetImage(images[index]),fit: BoxFit.cover),
+                      decoration: BoxDecoration(image: DecorationImage(image: AssetImage(images[index]),
+                      fit: BoxFit.cover),
                       borderRadius: BorderRadius.only(topLeft: Radius.circular(20),
                       bottomLeft: Radius.circular(20))),
                       
